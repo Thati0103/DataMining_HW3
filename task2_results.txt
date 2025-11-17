@@ -1,0 +1,57 @@
+=== Probabilistic Matrix Factorization (PMF / SVD) ===
+PMF Average RMSE: 0.896501
+PMF Average MAE: 0.690454
+
+=== User-based CF Results ===
+    sim  k     rmse      mae
+ cosine  5 1.043068 0.805176
+ cosine 10 1.008875 0.777222
+ cosine 20 0.998015 0.769304
+ cosine 30 0.993574 0.766465
+ cosine 40 0.992407 0.766940
+ cosine 50 0.994212 0.768997
+    msd  5 0.984654 0.753621
+    msd 10 0.966071 0.738532
+    msd 20 0.962331 0.737686
+    msd 30 0.965518 0.740859
+    msd 40 0.969392 0.744493
+    msd 50 0.970745 0.746719
+pearson  5 1.042525 0.810454
+pearson 10 1.013203 0.785183
+pearson 20 1.000470 0.774078
+pearson 30 0.999594 0.773567
+pearson 40 0.998085 0.772470
+pearson 50 0.996402 0.771365
+
+=== Item-based CF Results ===
+    sim  k     rmse      mae
+ cosine  5 1.099069 0.857388
+ cosine 10 1.050148 0.820883
+ cosine 20 1.017852 0.794857
+ cosine 30 1.004400 0.783156
+ cosine 40 0.995888 0.775999
+ cosine 50 0.989680 0.769976
+    msd  5 1.020840 0.789956
+    msd 10 0.974567 0.753650
+    msd 20 0.946871 0.731730
+    msd 30 0.938469 0.724140
+    msd 40 0.934561 0.721148
+    msd 50 0.932156 0.719097
+pearson  5 1.080311 0.842023
+pearson 10 1.033055 0.805730
+pearson 20 1.006508 0.782869
+pearson 30 0.993142 0.771956
+pearson 40 0.991435 0.768937
+pearson 50 0.985438 0.764925
+
+=== Best User-based CF ===
+sim          msd
+k             20
+rmse    0.962331
+mae     0.737686
+
+=== Best Item-based CF ===
+sim          msd
+k             50
+rmse    0.932156
+mae     0.719097

@@ -1,0 +1,65 @@
+===== K-MEANS RESULTS (OPTIMIZED VERSION) =====
+
+
+===== EUCLIDEAN =====
+
+Stop: centroid
+SSE: 25322268699.0000
+Accuracy: 0.5948
+Iterations: 79
+
+Stop: sse
+SSE: 25321145842.0000
+Accuracy: 0.5892
+Iterations: 100
+
+Stop: max_iter
+SSE: 25454385468.0000
+Accuracy: 0.6333
+Iterations: 100
+
+===== COSINE =====
+
+Stop: centroid
+SSE: 682.6235
+Accuracy: 0.6136
+Iterations: 100
+
+Stop: sse
+SSE: 686.6930
+Accuracy: 0.6218
+Iterations: 51
+
+Stop: max_iter
+SSE: 682.2882
+Accuracy: 0.6139
+Iterations: 100
+
+===== JACCARD =====
+
+Stop: centroid
+SSE: 3717.3861
+Accuracy: 0.6277
+Iterations: 57
+
+Stop: sse
+SSE: 4022.5406
+Accuracy: 0.4771
+Iterations: 2
+
+Stop: max_iter
+SSE: 3671.2223
+Accuracy: 0.6245
+Iterations: 100
+
+===== SUMMARY TABLE =====
+Distance Metric Stop Criteria          SSE  Accuracy  Iterations
+      euclidean      centroid 2.532227e+10    0.5948          79
+      euclidean           sse 2.532115e+10    0.5892         100
+      euclidean      max_iter 2.545439e+10    0.6333         100
+         cosine      centroid 6.826235e+02    0.6136         100
+         cosine           sse 6.866930e+02    0.6218          51
+         cosine      max_iter 6.822882e+02    0.6139         100
+        jaccard      centroid 3.717386e+03    0.6277          57
+        jaccard           sse 4.022541e+03    0.4771           2
+        jaccard      max_iter 3.671222e+03    0.6245         100
